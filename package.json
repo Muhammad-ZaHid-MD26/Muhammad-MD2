@@ -1,6 +1,6 @@
 {
-    "name": "mega",
-    "version": "4.0.0",
+    "name": "Muhammad",
+    "version": "1.0.1",
     "description": "Advanced AI",
     "main": "index.js",
     "type": "module",
@@ -28,16 +28,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/GlobalTechInfo/MEGA-AI",
+    "homepage": "https://github.com/Muhammad-ZaHid-MD26/Muhammad-MD2",
     "author": {
-        "name": "GlobalTechInfo"
+        "name": "Muhammad-ZaHid-MD26"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/GlobalTechInfo/MEGA-AI.git"
+        "url": "git+https://github.com/Muhammad-ZaHid-MD26/Muhammad-MD2.git"
     },
     "bugs": {
-        "url": "https://github.com/GlobalTechInfo/MEGA-AI/issues"
+        "url": "https://github.com/Muhammad-ZaHid-MD26/Muhammad-MD2/issues"
     },
     "license": "Apache-2.0",
     "dependencies": {
@@ -123,11 +123,11 @@
     },
     "contributors": [
     {
-      "name": "Qasim Ali",
+      "name": "Muhammad ZaHid",
       "role": "Lead Developer"
     },
     {
-      "name": "GlobalTechInfo",
+      "name": "Muhammad-ZaHid-MD26",
       "role": "Maintainer"
     }
   ]
