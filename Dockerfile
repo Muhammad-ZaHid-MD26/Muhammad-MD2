@@ -1,15 +1,15 @@
-FROM quay.io/Muhammad-ZaHid-MD26/Muhammad-MD2
+FROM quay.io/suhailtechinfo/suhail-v2
 
-# Project clone
+# Clone your GitHub repo
 RUN git clone https://github.com/Muhammad-ZaHid-MD26/Muhammad-MD2 /root/Muhammad-MD2
 
-# Work directory set
+# Set working directory
 WORKDIR /root/Muhammad-MD2
 
 # Install dependencies
 RUN npm install --force
 
-# Expose for Koyeb
+# Expose port for Koyeb
 EXPOSE 8000
 
 # Start the bot
