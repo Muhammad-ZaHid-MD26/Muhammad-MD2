@@ -1,7 +1,16 @@
-FROM quay.io/suhailtechinfo/suhail-v2
-RUN git clone https://github.com/GlobalTechInfo/SUHAIL-XMD /root/SUHAIL-XMD
-# RUN rm -rf /root/SUHAIL-XMD/.git
-WORKDIR /root/SUHAIL-XMD
-RUN npm install || yarn install
+FROM quay.io/Muhammad-ZaHid-MD26/Muhammad-MD2
+
+# Project clone
+RUN git clone https://github.com/Muhammad-ZaHid-MD26/Muhammad-MD2 /root/Muhammad-MD2
+
+# Work directory set
+WORKDIR /root/Muhammad-MD2
+
+# Install dependencies
+RUN npm install --force
+
+# Expose for Koyeb
 EXPOSE 8000
-CMD ["npm","start" ]
+
+# Start the bot
+CMD ["node", "index.js"]
